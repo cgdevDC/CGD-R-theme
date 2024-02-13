@@ -1,8 +1,8 @@
-library(ggthemes)
-library(ragg)
-library(tidyverse)
-library(gapminder)
-library(bbplot)
+if (!require(ggplot2)) install.packages("ggplot2"); require(ggthemes)
+#library(ragg)
+#library(tidyverse)
+#library(gapminder)
+#library(bbplot)
 
 ##########################################################################
 ########## Implementing the CGD graphics guide in ggplot2 ################
@@ -126,6 +126,7 @@ theme_cgd <- theme_classic() +
 
 ## Other plot features (projections, trend lines, separators) are data features
 ## and therefore need to be added and styled manually.
+
 
 
 
