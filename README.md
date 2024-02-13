@@ -29,8 +29,8 @@ much of a range of color the user wants the scale to cover. Will generally
 want to use sequential2 or sequential3 (looks cleaner), but if they want to
 tease out differences in middle parts of the scale they can use higher.
 
-When using 'scale_fill_discrete()' or 'scale_color_discrete()' with polar or sequential,
-you can use 'type = sequential' or 'type = polar' and ggplot will automatically
+When using `scale_fill_discrete()` or `scale_color_discrete()` with polar or sequential,
+you can use `type = sequential` or `type = polar` and ggplot will automatically
 use the version with the same number of colors as levels of the factor it is graphing.
 
 For sequential, an alternative is using alpha: set alpha = continuous_variable within aes,
