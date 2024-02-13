@@ -56,17 +56,17 @@ Note, no brackets after.
 
 Ideally, this would be a one-size-fits-all add-on, but in practice users
 will still need to make modifications. You can modify the specs here by adding 
-on your own theme() after theme_cgd - note it must be after, otherwise theme_cgd
+on your own `theme()` after `theme_cgd` - note it must be after, otherwise `theme_cgd`
 will just overwrite it.
 
 Note that placing y-axis title above axis (on top left) is only possible by
 setting the plot subtitle as the desired y-axis title. Set subtitle with
-labs(subtitle = "This is a subtitle").
+`labs(subtitle = "This is a subtitle")`.
 
 CGD graphs should use the "Sofia Pro" font, available [here](https://centerforglobaldevelop.sharepoint.com/sites/fileshare/Shared%20Documents/Forms/AllItems.aspx?ga=1&id=%2Fsites%2Ffileshare%2FShared%20Documents%2FNDrive%2FCommunications%2FCGD%20Branding%20Materials%2FCGD%20Fonts&viewid=23e5bfee%2D12a8%2D4a15%2Dac13%2Dfba17c53a2db).
 
 First download them, then open each one and press install; this should automatically
-install them to your system fonts ("C:\Windows\Fonts" or similar) and make
+install them to your system fonts (`"C:\Windows\Fonts"` or similar) and make
 them available to R. You will need to close R down and reopen it (not just restart the session to make this work).
 
 Other plot features (projections, trend lines, separators) are data features
