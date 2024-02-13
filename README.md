@@ -1,6 +1,18 @@
 # CGD-R-theme
 A ggplot2 theme for CGD graphs
 
+
+=======
+
+This is a script to implement CGD's [branding and data viz guidelines](https://centerforglobaldevelop.sharepoint.com/:b:/r/sites/fileshare/Shared%20Documents/NDrive/Communications/CGD%20Branding%20Materials/CGD-Data-Viz-Style-Guide.pdf?csf=1&web=1&e=H081DY) on ggplot graphs. There are other versions of this script floating around, but the point of this repository is to serve as the canonical version. If you have a change or improvement to the script (very welcome!) please submit a pull request, if you have your own Github, account or contact Jeremy Gaines (jgaines@cgdev.org) to get the direct login info.
+
+*The Stata version of this script is available [here](https://github.com/cgdevDC/CGD-stata-scheme).*
+
+## Instructions
+
+1. Either clone the repository or download the relevant file directly [here](https://github.com/cgdevDC/CGD-R-theme/blob/main/theme_cgd.R).
+2. Load it in R and apply it to your ggplot graphs
+
 ---
 
 ## Guide: [CGD Sharepoint](https://centerforglobaldevelop.sharepoint.com/sites/fileshare/Shared%20Documents/Forms/AllItems.aspx?ga=1&id=%2Fsites%2Ffileshare%2FShared%20Documents%2FNDrive%2FCommunications%2FCGD%20Branding%20Materials%2FCGD%2DData%2DViz%2DStyle%2DGuide%2Epdf&viewid=23e5bfee%2D12a8%2D4a15%2Dac13%2Dfba17c53a2db&parent=%2Fsites%2Ffileshare%2FShared%20Documents%2FNDrive%2FCommunications%2FCGD%20Branding%20Materials)
@@ -71,5 +83,3 @@ them available to R. You will need to close R down and reopen it (not just resta
 
 Other plot features (projections, trend lines, separators) are data features
 and therefore need to be added and styled manually.
-
-
