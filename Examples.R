@@ -1,5 +1,13 @@
 
+if (!require(tidyverse)) install.packages("tidyverse")
+if (!require(gapminder)) install.packages("gapminder")
+if (!require(ggthemes)) install.packages("ggthemes")
+
+
+library(ggplot2)
+library(ggthemes)
 library(gapminder)
+
 
 #####################################
 ############# Testing ###############
